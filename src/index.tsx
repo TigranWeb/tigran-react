@@ -1,6 +1,8 @@
 import * as React from 'react'
 // import styles from './styles.module.css'
 
+interface Props {}
+
 const blandMods = [
   { name: 'bland 1' },
   { name: 'bland 2' },
@@ -10,7 +12,8 @@ const blandMods = [
   { name: 'bland 6' }
 ]
 
-function DropDownInput() {
+function DropDownInput(props: Props) {
+  console.log(props)
   const [bland, setBland] = React.useState('')
   const [blandList, setBlandList] = React.useState<any[]>([])
 

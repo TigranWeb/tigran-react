@@ -1,10 +1,10 @@
 {
   "name": "tigran-react",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "my components library",
-  "author": "TigranWeb",
+  "author": "tigranweb",
   "license": "MIT",
-  "repository": "TigranWeb/tigran-react",
+  "repository": "git@github.com:TigranWeb/tigran-react.git",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.tsx",
