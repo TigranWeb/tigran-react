@@ -14,15 +14,6 @@ npm install --save tigran-react
 
 ```tsx
 import React, { Component } from 'react'
-
-import MyComponent from 'tigran-react'
-import 'tigran-react/dist/index.css'
-
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
-}
 ```
 
 ## License
